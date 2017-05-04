@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link, IndexLink} from 'react-router';
 import Container from './components/Container';
 class App extends React.Component {
 	render () {
@@ -20,12 +20,11 @@ class App extends React.Component {
 			</main>
 		);*/
 		return ( 
-			<main>
-				<Container container_styles="MainMenuSectionMain" main_section="MainMenuSection" menu_name="Главная"/>
-				<Container container_styles="MainMenuSectionPortfolio" main_section="MainMenuSection" menu_name="Портфолио"/>
-				<Container container_styles="MainMenuSectionPrice" main_section="MainMenuSection" menu_name="Цены"/>
-				<Container container_styles="MainMenuSectionContacts" main_section="MainMenuSection" menu_name="Контакты"/>
-			</main>
+			<div className="mdl-layout mdl-layout--no-drawer-button mdl-layout--fixed-header">
+				<main>
+					{this.props.children}
+				</main>
+			</div>
 		);		
 	}
 }

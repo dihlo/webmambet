@@ -2,11 +2,22 @@ body {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover { 
+    text-decoration: none; 
+    color: white; /* Ссылка красного цвета */
+   } 
+
+
 /* ID */
 
 
 /*Class*/
 
+/*Class components Container*/
 .MainMenuSection {
 	height: 100vh;
 	float: left;
@@ -58,4 +69,45 @@ body {
 	height: 0%;
 	margin: auto;
 	text-align: center;	
+}
+
+/*Class components Header*/
+
+.NavMenuHeader {
+	padding: 20px 0 0 40px;
+}
+.Navigation {
+	height: 50px;
+}
+.NavigationLink {
+	float: left;
+	text-align: center;
+	display: block;
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	line-height: 50px;	
+}
+.NavHome {
+	background: #4D444D;
+	opacity: 0.9;
+}
+.NavPortfolio {
+	background: #4D304D;
+	opacity: 0.9;
+}
+.NavPrice {
+	background: #8A7E4D;
+	opacity: 0.9;	
+}
+.NavContacts {
+	background: #544D8A;
+	opacity: 0.9;
+}
+
+/*Class components Portfolio*/
+
+.PortfolioBG {
+	background: yellow;
+	height: 100vh;
 }
