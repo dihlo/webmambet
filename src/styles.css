@@ -111,3 +111,24 @@ a:hover {
 	background: yellow;
 	height: 100vh;
 }
+
+/*Class components PortfolioUnit*/
+
+.PortfolioUnitImg {
+	margin: 0 auto;
+	height: 200px;
+	width: 100%;
+	background: url(https://avatarfiles.alphacoders.com/621/thumb-62145.png);
+}
+.PortfolioUnitBlock {
+	text-align: center;
+	width: 20%;
+	float: left;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top: 1.5%;
+}
+.PortfolioUnitBlock:hover {
+	background: black;
+	opacity: 0.7;
+}
