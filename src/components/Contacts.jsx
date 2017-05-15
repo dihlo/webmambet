@@ -3,9 +3,12 @@ import Header from "./Header";
 
 function Contacts(props) {
 	return (
-		<div>
+		<div className="ContactsBG">
 			<Header />
-			Contacts
+			<div className="ContactsContainer">
+				<div className="ContactsEmail">e-mail: sale@webmambet.ru</div>
+				<div className="ContactsPhone">телефон: +7 (962) 733 33 70</div>
+			</div>			
 		</div>
 	);
 }

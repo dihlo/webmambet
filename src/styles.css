@@ -132,3 +132,27 @@ a:hover {
 	background: black;
 	opacity: 0.7;
 }
+
+/*Class components Contacts*/
+.ContactsBG {
+	background-color: blue;
+	height: 100vh;
+}
+.ContactsContainer {
+	position: absolute;
+	background: rgba(84, 77, 138, 0.6);
+	width: 30%;
+	height: 150px;
+	text-align: center;
+	font-size: 30px;
+	left: 50%;
+	top: 30%;
+	color: white;
+}
+
+.ContactsEmail {
+	padding-top: 7%;
+}
+.ContactsPhone {
+
+}
