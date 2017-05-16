@@ -156,3 +156,30 @@ a:hover {
 .ContactsPhone {
 
 }
+
+/*Class components Price*/
+
+.table {
+	font-size: 20px;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	top: 30px;
+	table-layout: fixed;
+}
+
+.table tr {
+	height: 50px;
+}
+.tdText {
+	font-size: 14px;
+	padding-left: 5%;
+}
+.tableBg {
+	position: absolute;
+	width: 40%;
+	background: rgba(255, 188, 71, 0.3);
+	left: 200px;
+	top: 100px;
+	height: 620px;
+}
