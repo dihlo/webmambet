@@ -7,7 +7,8 @@ function Home(props) {
 			<Link to="/Home">
 				<Container container_styles="MainMenuSectionMain" 
 				main_section="MainMenuSection" 
-				menu_name="Главная"/>
+				menu_name="Web Mambet"
+				webStudioLogoName="Веб студия"/>
 			</Link>
 			<Link to="/Portfolio">
 				<Container container_styles="MainMenuSectionPortfolio" 

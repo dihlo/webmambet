@@ -5,6 +5,7 @@ function Container(props) {
 		<a href="">
 			<div className={props.main_section}>
 				<div className={props.container_styles}>
+					<p className="webStudioLogo">{props.webStudioLogoName}</p>
 					<h2>{props.menu_name}</h2>
 				</div>
 			</div>
