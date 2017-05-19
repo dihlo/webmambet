@@ -5,10 +5,11 @@ body {
 a {
 	text-decoration: none;
 	color: black;
+	font-family: 'Comfortaa', cursive;
 }
 a:hover { 
     text-decoration: none; 
-    color: white; /* Ссылка красного цвета */
+    color: white; /* Ссылка белого цвета */
    } 
 
 
@@ -172,7 +173,7 @@ a:hover {
 }
 .DescriptionSite h3 {
 	padding-top: 30px;
-	font-size: 12px;
+	font-size: 10px;
 }
 .DescriptionSite p {
 	display: inline-block;
