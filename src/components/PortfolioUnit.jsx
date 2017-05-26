@@ -4,7 +4,7 @@ import {Link, IndexLink} from 'react-router';
 function PortfolioUnit(props) {
 	return (
 		<div className="PortfolioUnit">
-			<a href={props.site_link}>
+			<a href={props.site_link} target="_blank">
 				<div className="PortfolioUnitBlock">
 					<div className="rotate">
 						<div className="DescriptionSite">

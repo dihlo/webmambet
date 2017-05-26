@@ -1,6 +1,8 @@
 import React from 'react';
 import Container from './Container';
 import {Link, IndexLink} from 'react-router';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 function Home(props) {
 	return (
 		<div>
